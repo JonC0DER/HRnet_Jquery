@@ -41,10 +41,10 @@ function initDataTable(employees) {
             { title: 'Last Name', data: 'lastName' },
             { title: 'Start Date', data: 'startDate' },
             { title: 'Department', data: 'department' },
-            { title: 'Date of Birth', data: 'dateOfBirth' },
+            { title: 'Date of Birth', data: 'birthDate' },
             { title: 'Street', data: 'street' },
             { title: 'City', data: 'city' },
-            { title: 'State', data: 'state' },
+            { title: 'State', data: 'countryState' },
             { title: 'Zip Code', data: 'zipCode' },
         ]
     });
