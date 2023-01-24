@@ -23,24 +23,24 @@ $( function() {
 function saveEmployee() {
     const firstName = document.getElementById('first-name');
     const lastName = document.getElementById('last-name');
-    const birthDate = document.getElementById('date-of-birth');
+    const dateOfBirth = document.getElementById('date-of-birth');
     const startDate = document.getElementById('start-date');
     const department = document.getElementById('department');
     const street = document.getElementById('street');
     const city = document.getElementById('city');
-    const countryState = document.getElementById('state');
+    const state = document.getElementById('state');
     const zipCode = document.getElementById('zip-code');
 
     const employees = JSON.parse(localStorage.getItem('employees')) || [];
     const employee = {
         firstName: firstName.value,
         lastName: lastName.value,
-        birthDate: birthDate.value,
+        dateOfBirth: dateOfBirth.value,
         startDate: startDate.value,
         department: department.value,
         street: street.value,
         city: city.value,
-        countryState: countryState.value,
+        state: state.value,
         zipCode: zipCode.value
     };
     employees.push(employee);
